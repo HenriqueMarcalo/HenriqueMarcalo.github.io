@@ -1,0 +1,13 @@
+fieldset {
+    color: rgb(18, 20, 20);
+    background-color: rgb(106, 152, 138);
+    border: 1px solid rgb(255,255,255);
+    width: 100px;
+}
+input{
+    background-color: rgb(240, 223, 223);
+    border: 1px solid rgb(255,255,255);
+    color: rgb(178, 97, 97);
+}
+
+
