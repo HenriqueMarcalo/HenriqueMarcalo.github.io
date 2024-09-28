@@ -1,6 +1,6 @@
 fieldset {
     color: rgb(18, 20, 20);
-    background-color: rgb(106, 152, 138);
+    background-color: rgb(186, 199, 136);
     border: 1px solid rgb(255,255,255);
     width: 100px;
 }
@@ -10,4 +10,12 @@ input{
     color: rgb(178, 97, 97);
 }
 
+body{
+    background-color:rgb(189, 185, 185);
+}
+
+table{
+    background-color:  rgb(84, 178, 211);
+    border:  rgb(0, 0, 0);
+}
 
