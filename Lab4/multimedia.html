@@ -6,6 +6,7 @@
         <title>Bodrum</title>
     </head>
     <body>
+        <div>
         <header>
             <h1>Bodrum</h1>
         </header>
@@ -18,34 +19,51 @@
             <a href="viagem.html">Viagem</a>
             
         </nav>
-        <img src="images/cidadona.jpg"alt="cidade de Bodrum">
+        <img src="images/cidadona.jpg"alt="cidade de Bodrum" class="page-image">
         <main>
+            <section class="multimedia-container">
+            <section class="multimedia-titulo">
             <h2>Multimédia</h2>
             <p>
                 <a href="#fotografias">Fotografias</a>
                 <a href="#video">Vídeo</a>
                 <a href="#poema">Poema</a>
             </p>
-            <section>
-            <h3 id="fotografias">Fotografias</h3>
+            </section>
+
+            <section id="fotografias">
+            <h3>Fotografias</h3>
+            </section>
+
+            <section class="fotografia-container">
             <p>
-                <a href="images/bodrumporto_grande.png" target="fotoFrame2"><img src="images/bodrumporto_pequeno.png"alt="portogrande"></a>
-                <a href="images/bodrumpaisagem_grande.png" target="fotoFrame2"><img src="images/bodrumpaisagem_pequeno.png"alt="paisagemgrande"></a>
-                <a href="images/efeso_grande.png" target="fotoFrame2"><img src="images/efeso_pequeno.png"alt="efesogrande"></a>
+                <figure>
+                <img src="images/bodrumporto_pequeno.png"alt="portogrande">
+                <figcaption>Imagem 1- Porto de Bodrum</figcaption>
+                </figure>
+                <figure>
+                <img src="images/bodrumpaisagem_pequeno.png"alt="paisagemgrande">
+                <figcaption>Imagem 2- Pôr do Sol em Bodrum</figcaption>
+                </figure>
+                <figure>
+                <img src="images/efeso_pequeno.png"alt="efesogrande">
+                <figcaption>Imagem 3- Efeso</figcaption>
+                </figure>
             </section>
             </p>
-            <iframe name="fotoFrame2" width="600" height="400"></iframe>
             <p>
-            <section>
-                <h3 id="video">Vídeo:</h3>
-                <iframe width="250" height="150" src="https://www.youtube.com/embed/aLQ-MK5FnpA?si=NanfVpfbtrbo1BPS" 
+            <section id="video">
+                <h3>Vídeo</h3>
+                <section class="video-container">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/aLQ-MK5FnpA?si=NanfVpfbtrbo1BPS" 
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                     web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
             </section>
             </p>
             <p>
-            <section>
-                <h3 id="poema">Poema:</h3>
+            <section id="poema">
+                <h3>Poema</h3>
                 <pre>
                 Nas margens do Egeu, sob o céu azul,
                 Bodrum desperta, serena e sutil.
@@ -72,11 +90,11 @@
                 Quem te conhece, nunca te esquece,
                 Nos braços do Egeu, o coração permanece.
                 </pre>
+                </section>
             </p>
         </section>
         </main>
         <footer>
-            <p><strong>Regressar ao menu: </strong><a href="../index.html">AQUI</a></p>
-            <p>DIW 2024</p>
+            <strong>Regressar ao menu: </strong><a href="../index.html">AQUI</a>
         </footer>
     </body>
