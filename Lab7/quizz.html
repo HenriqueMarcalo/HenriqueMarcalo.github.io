@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="responsive.css">
+        <title>Bodrum</title>
+    </head>
+    <body>
+        <header>
+            <h1>Bodrum</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="local.html">Localização</a>
+            <a href="multimedia.html">Multimédia</a>
+            <a href="info.html">Informação</a>
+            <a href="quizz.html">Quizz</a>
+            <a href="viagem.html">Viagem</a>
+            <a href="pontosinteresse.html">Pontos de Interesse</a>
+            <a href="capitais.html">Capitais</a>
+        </nav>
+        <img src="images/cidadona.jpg"alt="cidade de Bodrum" class="page-image">
+        <main>
+            <section class="quizz-container">
+            <h2 class="quizz-title">Quizz</h2>
+            <form method="get" action="https://postman-echo.com/get" id="quizBodrum">
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" required autofocus>
+    
+                    <label for="apelido">Apelido:</label>
+                    <input type="text" name="apelido" id="apelido" placeholder="Insira o seu apelido" required autofocus>
+    
+                    <label for="apelido">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@dominio.com" required
+                        autofocus>
+                </fieldset>
+    
+                <fieldset>
+                    <label for="nomeBodrum">Qual é o nome da cidade onde está a fazer este quiz?</label>
+                    <input type="text" id="nomeBodrum" name="nomeBodrum" placeholder="Escreva Bodrum aqui" size="20"
+                        maxlength="30" required autofocus>
+    
+                    <p>Qual é a ilha Grega mais perto de Bodrum?</p>
+                    <input type="radio" id="kos" name="ilha" value="Kos" required>
+                    <label for="kos">Kos</label>
+                    <input type="radio" id="mykonos" name="ilha" value="Mykonos">
+                    <label for="mykonos">Mykonos</label>
+                    <input type="radio" id="creta" name="ilha" value="Creta">
+                    <label for="creta">Creta</label>
+    
+                    <p>Quais destas são atividades comuns em Bodrum? (Escolha várias)</p>
+                    <input type="checkbox" id="efeso" name="atividade" value="Efeso">
+                    <label for="efeso">Visita a Efeso</label>
+                    <input type="checkbox" id="tiroAlvo" name="atividade" value="TiroAlvo">
+                    <label for="tiroAlvo">Tiro ao Alvo</label>
+                    <input type="checkbox" id="praia" name="atividade" value="Praia">
+                    <label for="praia">Praia</label>
+    
+                    <label for="ultimaVisita">Quando foi a última vez que visitou Bodrum?</label>
+                    <input type="date" id="ultimaVisita" name="ultimaVisita" form="quizBodrum" required>
+    
+                    <label for="hora">A que horas da madrugada começam as rezas na Turquia?</label>
+                    <input type="time" id="hora" name="hora" form="quizBodrum" required>
+    
+                    <label for="cor">Escolha uma cor que represente Bodrum:</label>
+                    <input type="color" id="cor" name="cor" value="#ff0000" required>
+    
+                    <label for="visitas">Quantas vezes já visitou Bodrum?</label>
+                    <input type="number" id="visitasBodrum" name="visitas" min="0" max="100" step="1" placeholder="0"
+                        required>
+    
+                    <label for="rating">Numere de 1 a 10 o quanto gosta de Bodrum:</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10" step="1">
+    
+                    <label for="festas">Qual é a sua atividade favorita em Bodrum?</label>
+                    <input list="festasBodrum" id="festas" name="festas" placeholder="Escolha um evento" autocomplete="on"
+                        required>
+                    <datalist id="festasBodrum">
+                        <option value="Praia">
+                        <option value="Nightlife">
+                        <option value="Passeio de Barco">
+                        <option value="Banhos Turcos">
+                    </datalist>
+    
+                    <label for="comentarios">Comentários sobre o quiz:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50"
+                        placeholder="Escreva os seus comentários aqui..." maxlength="250"></textarea>
+    
+                    <input type="reset" form="quizBodrum" value="Limpar respostas">
+    
+                    <input type="submit" form="quizBodrum" value="Submeter Quiz">
+            </form>
+    
+                    </fieldset>
+                </form>
+                
+               </form>
+            </section> 
+        </main>
+        <footer>
+            <strong>Regressar ao menu: </strong><a href="../index.html">AQUI</a>
+        </footer>
+    </body>
+</html>

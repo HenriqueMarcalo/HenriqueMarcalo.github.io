@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+div {
+    position: absolute;
+    bottom: 0;
+    background: rgba(112, 125, 142, 0.5);
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  p{
+    font-size: 170%;
+    padding: 5px;
+    margin: 5px 0;
+    
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+  }
