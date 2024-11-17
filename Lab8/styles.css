@@ -67,3 +67,34 @@ input {
     background-color: rgb(240, 250, 255); 
     color: rgb(40, 50, 80); 
 }
+
+label {
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    border: 1px solid rgb(150, 200, 255); 
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(70, 100, 180); 
+    color: white; 
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(50, 80, 150); 
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    font-size: 18px; 
+    margin-top: 10px;
+    padding-left: 13px;
+    color: rgb(200, 230, 255); 
+}

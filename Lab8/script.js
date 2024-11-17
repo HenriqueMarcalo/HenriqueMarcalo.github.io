@@ -1,10 +1,10 @@
 document.getElementById('event1').addEventListener('click', function() {
-    document.getElementById('message').textContent = "Você clicou na Festa de São Pedro!";
+    document.getElementById('message').textContent = "Você clicou na Festa Internacional de Jazz";
 });
 
 document.getElementById('event2').addEventListener('dblclick', function() {
     this.style.color = 'blue';
-    document.getElementById('message').textContent = "Você deu um duplo clique no Mercado de Artesanato!";
+    document.getElementById('message').textContent = "Você deu um duplo clique em Dias de Arqueologia Subaquática";
 });
 
 document.getElementById('event3').addEventListener('mouseover', function() {
