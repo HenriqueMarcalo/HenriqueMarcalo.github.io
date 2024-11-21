@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1{
+    padding-bottom: 20px;
+  }
+  
+  /* Navegação */
+  nav a {
+    color: white; 
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px; 
+  }
+  
+  nav a:hover {
+    background-color: rgba(50, 70, 130, 0.9);
+    border-radius: 5px;
+    color: rgb(200, 230, 255); 
+    padding: 7px;
+  }
+  
+  /* Corpo */
+  body {
+    background-color: rgb(40, 50, 80); 
+    font-size: 20px;
+    margin: 60px;
+    color: white; 
+  }
+  
+  /* Botões */
+  button {
+    background-color: rgb(70, 100, 180); 
+    border: none;
+    font-size: 18px; 
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 12px;
+    color: white; 
+  }
+  
+  button:hover {
+    background-color: rgb(50, 80, 150); 
+    cursor: pointer;
+  }
+  
+  /* Input */
+  input {
+    border: 2px solid rgb(150, 200, 255); 
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-size: 18px; 
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: rgb(240, 250, 255); 
+    color: rgb(40, 50, 80); 
+  }
+  
+  input[type="submit"] {
+    border: 1px solid rgb(150, 200, 255); 
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(70, 100, 180); 
+    color: white; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(50, 80, 150); 
+    cursor: pointer;
+  }
+  
+  /* Seletores */
+  select {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px; 
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(100, 130, 200); 
+    color: white; 
+  }
+  
+  /* Lista */
+  li {
+    padding-top: 30px;
+    font-size: 18px; 
+  }
+  
+  /* Formulários */
+  form {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    padding-left: 10px;
+  }
+  
+  /* Mensagens */
+  #message {
+    font-size: 18px; 
+    margin-top: 10px;
+    padding-left: 13px;
+    color: rgb(200, 230, 255); 
+  }
+  
+  /* Produtos */
+  .produtos {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .produtos button {
+    margin: 0 1rem;
+  }
+  
+  .cesto {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .cesto #produtos-selecionados {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cesto .produto {
+    background-color: rgb(240, 250, 255); 
+    color: rgb(40, 50, 80); 
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(50, 70, 130, 0.9);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Loja</h1>
+    <nav>
+      <a href="#">Produtos</a>
+      <a href="#">Cesto</a>
+      <a href ="/index.html">Voltar ao Menu</a> 
+    </nav>
+  </header>
+  <main>
+    <section class="produtos">
+      <button onclick="adicionarAoCesto(0)">+ Adicionar ao Cesto</button>
+      <button onclick="adicionarAoCesto(1)">+ Adicionar ao Cesto</button>
+      <button onclick="adicionarAoCesto(2)">+ Adicionar ao Cesto</button>
+    </section>
+    <section class="cesto">
+      <h2>Produtos Selecionados</h2>
+      <div id="produtos-selecionados"></div>
+      <h3 id="custo-total">Custo total: 0 €</h3>
+    </section>  
+  </main>
+  <footer>2024</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
